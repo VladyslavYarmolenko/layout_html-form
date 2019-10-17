@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-  padding: 7px;
-}
 
 fieldset {
   margin-bottom: 20px;
@@ -10,4 +6,8 @@ fieldset {
 label {
   display: block;
   margin-bottom: 10px;
+}
+
+.last_field {
+  margin-bottom: 0;
 }

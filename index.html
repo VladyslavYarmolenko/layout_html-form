@@ -21,13 +21,13 @@
     <label>Name:
       <input type="text" name="name" minlength="3">
     </label>
-    <label>How old are you?:
-      <input type="number" name="age" value="12" min="18" max="100">
+    <label>How old are You?
+      <input type="number" name="age" min="1" max="100" value="12">
     </label>
     <label>Full date of birth:
       <input type="date" name="birth-date">
     </label>
-    <label>I accept the terms of the agreement:
+    <label class="last_field">I accept the terms of the agreement:
       <input type="checkbox" name="agree">
     </label>
     </fieldset>
@@ -36,38 +36,39 @@
     <label>E-mail:
       <input type="email" name="email" placeholder="email@example.com" maxlength="20">
     </label>
-    <label>Password:
+    <label class="last_field">Password:
       <input type="password" name="pass">
     </label>
   </fieldset>
   <fieldset>
-    <legend>An interesting information about you:</legend>
-    <label>Do you love cats:
+    <legend>An interesting fact about you:</legend>
+    <label>Do you love cats?:
         <input type="radio" name="preferences" value="yes">Yes
         <input type="radio" name="preferences" value="no">No
     </label>
-    <label>What is you favorite color:
+    <label>What is your favorite color?:
       <input type="color" name="color">
     </label>
-    <label>What time do you go to bed?:
+    <label>What time do you go to bed?
       <input type="time" name="bed-time">
     </label>
-    <label>What your favorite brand of car:
+    <label>What are your favorite brand of cars?:
       <select multiple>
         <option name="car" value="bmw">BMW</option>
         <option name="car" value="audi">Audi</option>
         <option name="car" value="lada">Lada</option>
       </select>
     </label>
-    <label>How do you rate our work?
-      <input type="range" name="rate-us" min="0" max="10">
+    <label class="last_field">How do you rate our work?
+      <input type="range" name="rate-us" value="0" min="0" max="10">
     </label>
   </fieldset>
   <fieldset>
     <legend>Additional info:</legend>
-    <label for="comment">Сomments:</label>
-    <textarea id="comment" name="comment" placeholder="Comment"></textarea>
-    <label>Would you recommend us?
+    <label for="comment">Сomments:
+      <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+    </label>
+    <label class="last_field">Would you recommend us?
       <select class="recom">
         <option name="recommendations" value="yes">Yes</option>
         <option name="recommendations" value="no">No</option>
